@@ -7,6 +7,7 @@ const Shop = () => {
 
     const [cart,setcart] = useState([])
     const [products,  setProducts]=useState([])
+    
 
     useEffect(()=>{
         fetch('data.json')
@@ -14,14 +15,11 @@ const Shop = () => {
         .then(data =>setProducts(data))
     },[])
 
-    // useEffect(()=>{
-        
-    //     setcart(cart+1)
-    // },[products])
+    
 
     const handleAddToCart =(product)=>{
-        // console.log(product);
-        const newCart =[...cart,product]
+        let newCart=[];
+            newCart =[...cart,product]
         setcart(newCart);
     }
 
@@ -38,8 +36,11 @@ const Shop = () => {
                 }
             </div>
             <div className="shopping-cart">
-                <Cart products={cart}></Cart>
+                <Cart products={cart}
+                ></Cart>
+               
             </div>
+            
         </div>
     );
 };
