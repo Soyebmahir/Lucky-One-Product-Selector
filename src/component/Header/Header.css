@@ -1,0 +1,23 @@
+.header {
+    height: 80px;
+    background-color: #f3cc82;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 140px 0px 140px;
+}
+
+.header img {
+    height: 100%;
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(95, 31, 31);
+    margin-left: 36px;
+    font-size: 17px;
+}
+
+.header a:hover {
+    color: rgb(185, 60, 118);
+}
