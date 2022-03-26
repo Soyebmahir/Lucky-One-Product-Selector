@@ -38,7 +38,7 @@ const Shop = () => {
                 }
             </div>
             <div className="shopping-cart">
-                <Cart cart={cart}></Cart>
+                <Cart products={cart}></Cart>
             </div>
         </div>
     );
