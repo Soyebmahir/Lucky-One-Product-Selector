@@ -1,0 +1,62 @@
+[
+    {
+      "name": "Watermelon",
+      "id": "623eddb5c8d65d7e7725ca92",
+      "picture": "https://img.agriexpo.online/images_ag/photo-mg/184575-12680429.jpg",
+      "price": 300
+    },
+    {
+      "name": "Fresh Malta",
+      "id": "623eddb5d268fa973c1c0551",
+      "picture": "https://www.shodagor.com/wp-content/uploads/2021/02/valancia-orange.jpg",
+      "price": 200
+    },
+    {
+      "name": "Guava",
+      "id": "623eddb549cf0a9833f90fdc",
+      "picture": "https://cdn.somahar.xyz/product/X1mbvt08kNTbvYdAM6i04021.jpg",
+      "price": 100
+    },
+    {
+      "name": "Amrapali Mango",
+      "id": "623eddb50ec835c9ec95b8d8",
+      "picture": "http://wp.bssnews.net/wp-content/uploads/2018/05/2018-05-24_bss-02_754925.jpg",
+      "price": 200
+    },
+    {
+      "name": "Grapes",
+      "id": "623eddb5342ddf8e9569f04c",
+      "picture": "https://www.babycare.com.bd/image/cache/catalog/Food/Green-Grapes-500x500.jpg",
+      "price": 350
+    },
+    {
+      "name": "Nashpati",
+      "id": "623eddb5ce95394072b977aa",
+      "picture": "https://anobashop.com/5075-large_default/pear-white-nashpati-per-kg.jpg",
+      "price": 300
+    },
+    {
+      "name": "Apple",
+      "id": "623eddb55c9e4ab62751b00e",
+      "picture": "https://bsg-i.nbxc.com/product/ef/f6/67/6619476370c9c1d32180018f23.jpg@4e_500w_500h.src%7C95Q.webp",
+      "price": 220
+    },
+    {
+      "name": "Dates",
+      "id": "623eddb5771785af63aa0751",
+      "picture": "https://www.shodagor.com/wp-content/uploads/2021/03/Kalmi.jpg",
+      "price": 1000
+    },
+    {
+      "name": "Orange",
+      "id": "623eddb5c0c978bc8a9b6f17",
+      "picture": "https://images.othoba.com/images/thumbs/0040450_orange-1-kg.jpeg",
+      "price": 230
+    },
+    {
+      "name": "Strawberry",
+      "id": "623eddb5fa47b75802cc393a",
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMLHslhJhH9a6oNTln3dDd-tcieFwzRS9FHg&usqp=CAU",
+      "price": 500
+    }
+  ]
