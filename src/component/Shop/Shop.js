@@ -7,6 +7,13 @@ const Shop = () => {
 
     const [cart,setcart] = useState([])
     const [products,  setProducts]=useState([])
+    const [random,setRandom]=useState([])
+
+
+    const choseForme=()=>{
+        const randomitem = products[Math.floor(Math.random() * products.length)];
+        setRandom(randomitem);    
+    }
     
 
     useEffect(()=>{
@@ -22,9 +29,15 @@ const Shop = () => {
             newCart =[...cart,product]
         setcart(newCart);
     }
+    const randomClear=()=>{
+        const clear =[];
+        setRandom(clear)
+    }
     const selectAgain=() =>{
         const empty =[];
         setcart(empty);
+       randomClear();
+        
     }
 
     return (
@@ -43,6 +56,8 @@ const Shop = () => {
                 <Cart products={cart}
                 key={cart.id}
                 selectAgain={selectAgain}
+                random={random}
+                choseForme={choseForme}
                 ></Cart>
                
             </div>

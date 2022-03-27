@@ -1,21 +1,12 @@
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
 import SelectedCart from '../SelectedCart/SelectedCart';
 import './Cart.css'
 
-const Cart = ({products ,selectAgain}) => {
+const Cart = ({products ,selectAgain,random,choseForme}) => {
 
  
-const [random,setRandom]=useState([])
 
-
-    const choseForme=()=>{
-        const randomitem = products[Math.floor(Math.random() * products.length)];
-        setRandom(randomitem);    
-    }
-    // selectAgain=()=>{
-    //     const clear =[];
-    //     setRandom(clear);
-    // }
+    
     
    
     return (
