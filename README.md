@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
- [Project Live Site](facebook.com).
+ [Project Live Site](https://www.facebook.com/).
 
 ## Available Scripts
 

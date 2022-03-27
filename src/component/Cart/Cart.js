@@ -7,11 +7,15 @@ const Cart = ({products}) => {
 const [random,setRandom]=useState([])
 
 
+
     function choseForme() {
         
         const randomitem = products[Math.floor(Math.random() * products.length)];
+      
         setRandom(randomitem);
+        
     }
+    console.log(random);
     
     
 
