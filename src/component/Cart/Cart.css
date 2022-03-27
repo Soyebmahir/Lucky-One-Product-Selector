@@ -3,3 +3,34 @@
     top: 0;
     padding: 20px;
 }
+
+.luckyCart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-bottom: 0px;
+}
+
+.luckyCart img {
+    height: 50px;
+    width: 50px;
+    margin-right: 8px;
+    border-radius: 20px;
+}
+
+.luckyCart h3 {
+    margin-right: 4px;
+
+}
+
+.luckybox {
+    background-color: brown;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    text-align: right;
+}
+
+.luckybox {
+    margin-top: 0px;
+}

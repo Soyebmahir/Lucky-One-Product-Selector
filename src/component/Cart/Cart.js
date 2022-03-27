@@ -22,7 +22,13 @@ const [random,setRandom]=useState([])
             }
             <div>
             
-            <p>{random.name}</p>
+            <div className='luckybox'>
+        <div className='luckyCart'>
+            <img src={random.picture} alt="" />
+            <h3>{random.name}</h3>
+        </div>
+        <p>Price :{random.price}</p>
+        </div>
             </div>
             
             <button onClick={choseForme}>Choose For me</button>
