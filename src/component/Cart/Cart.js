@@ -6,20 +6,11 @@ const Cart = ({products}) => {
  
 const [random,setRandom]=useState([])
 
-
-
-    function choseForme() {
-        
+    const choseForme=()=>{
         const randomitem = products[Math.floor(Math.random() * products.length)];
-      
-        setRandom(randomitem);
-        
+        setRandom(randomitem);    
     }
     console.log(random);
-    
-    
-
-
     return (
         <div className='cart'>
             <h1>Shoppign Cart</h1>
@@ -29,7 +20,11 @@ const [random,setRandom]=useState([])
                  key={product.id}
                  ></SelectedCart>)
             }
+            <div>
+            
             <p>{random.name}</p>
+            </div>
+            
             <button onClick={choseForme}>Choose For me</button>
         </div>
     );

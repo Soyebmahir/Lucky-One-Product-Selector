@@ -1,3 +1,31 @@
 .selectedCart {
-    background-color: rgb(51, 48, 235);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-bottom: 0px;
+
+}
+
+.selectedCart img {
+    height: 50px;
+    width: 50px;
+    margin-right: 8px;
+    border-radius: 20px;
+}
+
+.selectedCart h3 {
+    margin-right: 4px;
+}
+
+.cartbox {
+    background-color: brown;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #aaaaaa;
+    text-align: right;
+}
+
+.cartbox p {
+    margin-top: 0px;
 }

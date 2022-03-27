@@ -5,7 +5,7 @@ import './Product.css'
 
 const Product = ({product,handleAddToCart}) => {
     // console.log(product,handleAddToCart);
-    const {name,picture,price}=product;
+    const {name,id,picture,price}=product;
     // console.log(name,id,picture,price);
     return (
         <div className='product'>
@@ -16,7 +16,7 @@ const Product = ({product,handleAddToCart}) => {
 
             </div>
             <div >
-              <button onClick={()=>handleAddToCart(product)} className='btn-cart'>
+              <button onClick={()=>handleAddToCart(product)} key={id} className='btn-cart'>
                   Add to cart
                   <FontAwesomeIcon icon={faShoppingCart} className="icon"></FontAwesomeIcon>
               </button>

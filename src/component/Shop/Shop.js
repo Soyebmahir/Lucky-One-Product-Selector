@@ -37,6 +37,7 @@ const Shop = () => {
             </div>
             <div className="shopping-cart">
                 <Cart products={cart}
+                key={cart.id}
                 ></Cart>
                
             </div>
