@@ -25,7 +25,7 @@
 }
 
 .luckybox {
-    background-color: brown;
+    background-color: white;
     border-radius: 5px;
     box-shadow: 5px 5px 5px #aaaaaa;
     text-align: right;
@@ -33,4 +33,35 @@
 
 .luckybox {
     margin-top: 0px;
+}
+
+.btn-chose {
+    width: 100%;
+    background-color: #FFE0B3;
+    border: none;
+    height: 30px;
+    border-radius: 0px 0px 8px 8px;
+    /* position: absolute;
+    bottom: 0px; */
+
+}
+
+.btn-chose:hover {
+    background-color: orange;
+}
+
+.btn-select {
+    width: 100%;
+    background-color: #FFE0B3;
+    border: none;
+    height: 30px;
+    border-radius: 0px 0px 8px 8px;
+    margin-top: 10px;
+    /* position: absolute;
+    bottom: 0px; */
+
+}
+
+.btn-select:hover {
+    background-color: orange;
 }

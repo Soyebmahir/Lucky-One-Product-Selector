@@ -22,6 +22,10 @@ const Shop = () => {
             newCart =[...cart,product]
         setcart(newCart);
     }
+    const selectAgain=() =>{
+        const empty =[];
+        setcart(empty);
+    }
 
     return (
         <div className='shop-container'>
@@ -38,6 +42,7 @@ const Shop = () => {
             <div className="shopping-cart">
                 <Cart products={cart}
                 key={cart.id}
+                selectAgain={selectAgain}
                 ></Cart>
                
             </div>
