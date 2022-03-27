@@ -5,15 +5,13 @@ import './Shop.css'
 
 const Shop = () => {
 
-    const [cart,setcart] = useState([])
+    
     const [products,  setProducts]=useState([])
     const [random,setRandom]=useState([])
+    const [cart,setcart] = useState([])
 
 
-    const choseForme=()=>{
-        const randomitem = products[Math.floor(Math.random() * products.length)];
-        setRandom(randomitem);    
-    }
+   
     
 
     useEffect(()=>{
@@ -28,6 +26,10 @@ const Shop = () => {
         let newCart=[];
             newCart =[...cart,product]
         setcart(newCart);
+    }
+    const choseForme=()=>{
+        const randomitem = cart[Math.floor(Math.random() * cart.length)];
+        setRandom(randomitem);    
     }
     const randomClear=()=>{
         const clear =[];

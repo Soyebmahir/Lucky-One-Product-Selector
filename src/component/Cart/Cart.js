@@ -4,7 +4,7 @@ import './Cart.css'
 
 const Cart = ({products ,selectAgain,random,choseForme}) => {
 
- 
+ console.log(products);
 
     
     
